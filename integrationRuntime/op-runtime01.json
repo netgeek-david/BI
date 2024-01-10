@@ -1,0 +1,7 @@
+{
+	"name": "op-runtime01",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "Self-Hosted Itegration Runtime for BKUTIL01"
+	}
+}

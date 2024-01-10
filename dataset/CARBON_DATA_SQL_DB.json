@@ -1,0 +1,52 @@
+{
+	"name": "CARBON_DATA_SQL_DB",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Price_Type",
+				"type": "varchar"
+			},
+			{
+				"name": "Date",
+				"type": "date"
+			},
+			{
+				"name": "Mkt_Product",
+				"type": "varchar"
+			},
+			{
+				"name": "Timing",
+				"type": "varchar"
+			},
+			{
+				"name": "LHA",
+				"type": "varchar"
+			},
+			{
+				"name": "Price",
+				"type": "decimal",
+				"precision": 7,
+				"scale": 2
+			},
+			{
+				"name": "Product_Unit",
+				"type": "varchar"
+			},
+			{
+				"name": "Price_Unit",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "OPIS_CARBON_DATA"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

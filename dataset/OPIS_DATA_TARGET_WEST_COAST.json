@@ -1,0 +1,62 @@
+{
+	"name": "OPIS_DATA_TARGET_WEST_COAST",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "OPIS_WESTCOAST_TARGET",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Price",
+				"type": "varchar"
+			},
+			{
+				"name": "Mkt_Prod",
+				"type": "varchar"
+			},
+			{
+				"name": "Date",
+				"type": "varchar"
+			},
+			{
+				"name": "Low_Price",
+				"type": "varchar"
+			},
+			{
+				"name": "High_Price",
+				"type": "varchar"
+			},
+			{
+				"name": "Ave_Price",
+				"type": "varchar"
+			},
+			{
+				"name": "Last_Price",
+				"type": "varchar"
+			},
+			{
+				"name": "Country",
+				"type": "varchar"
+			},
+			{
+				"name": "Unit",
+				"type": "varchar"
+			},
+			{
+				"name": "Timing",
+				"type": "varchar"
+			},
+			{
+				"name": "Freq",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "OPIS_WEST_COAST"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

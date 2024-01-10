@@ -1,0 +1,18 @@
+{
+	"name": "Trigger with files added",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/opis-input/blobs/",
+			"blobPathEndsWith": "_WestCoast.csv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/cd9bb358-2bcd-4bb5-94d4-388086100b09/resourceGroups/BI-RG/providers/Microsoft.Storage/storageAccounts/opisbidata",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

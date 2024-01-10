@@ -1,0 +1,6 @@
+{
+	"name": "integrationRuntimeKORAPP",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

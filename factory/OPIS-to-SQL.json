@@ -1,0 +1,9 @@
+{
+	"name": "OPIS-to-SQL",
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e60364b0-4832-4fae-84d7-4ef904ef2843",
+		"tenantId": "6d35f518-08c7-408e-a422-8b4e5195446a"
+	}
+}

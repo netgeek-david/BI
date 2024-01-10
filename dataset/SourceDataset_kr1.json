@@ -1,0 +1,16 @@
+{
+	"name": "SourceDataset_kr1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Chevron_Pricing_BV_MWSS2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "WebTable",
+		"schema": [],
+		"typeProperties": {
+			"index": 1
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,16 @@
+{
+	"name": "DestinationDataset_kr1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "OPIS_WESTCOAST_TARGET",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"table": "1"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

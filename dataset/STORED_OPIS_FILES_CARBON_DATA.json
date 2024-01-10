@@ -1,0 +1,56 @@
+{
+	"name": "STORED_OPIS_FILES_CARBON_DATA",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "opis_csv_carbon_data",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "opis-carbon-data"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Price_Type",
+				"type": "String"
+			},
+			{
+				"name": "Date",
+				"type": "String"
+			},
+			{
+				"name": "Mkt_Product",
+				"type": "String"
+			},
+			{
+				"name": "Timing",
+				"type": "String"
+			},
+			{
+				"name": "LHA",
+				"type": "String"
+			},
+			{
+				"name": "Price",
+				"type": "String"
+			},
+			{
+				"name": "Product Unit",
+				"type": "String"
+			},
+			{
+				"name": "Price Unit",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

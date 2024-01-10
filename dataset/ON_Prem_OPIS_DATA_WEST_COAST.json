@@ -1,0 +1,16 @@
+{
+	"name": "ON_Prem_OPIS_DATA_WEST_COAST",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ON Prem OPIS DATA",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "MariaDBTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "`OPIS_WEST_COAST`"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

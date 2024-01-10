@@ -1,0 +1,16 @@
+{
+	"name": "ON_Prem_OPIS_DATA_CARBON_DATA",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ON Prem OPIS DATA",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "MariaDBTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "`OPIS_CARBON_DATA`"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
